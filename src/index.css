@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: white;
+    display: flex;
+}
+.upper
+{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #2E282A;
+    justify-content: center;
+    align-items: center;
+
+}
+.upperlinks
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 80%;
+    align-items: center;
+}
+.sidelinks
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+
+}
+.upperL
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: auto;
+}
+.links
+{
+    text-decoration: none;
+    color: #F2EFEA;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.lower
+{
+    background-color:#2E282A;
+    height: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.up
+{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.right
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 4px;
+}
+.header
+{
+    color: #F2EFEA ;
+    margin-left: 5px;
+    margin-right: 20px;
+    text-decoration: none;
+    align-items: center;
+}
+.img
+{
+    text-decoration: none;
+    color: #F2EFEA;
+    margin-left: 20px;
+    align-items: center;
+    height: 100%;
+}
+.left
+{
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+
+}
+.btn
+{
+    width: 50px;
+    background-color: white;
+    height: 39px;
+    margin-bottom: 3px;
+    border: none;
+    
+}
+.input
+{
+    width: 85%;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 5px;
+    justify-content: center;
+}
+.footer1
+{
+    display: flex;
+    width: 100%;
+    height: 360px;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E282A;
+}
+.footer
+{
+    width: 90%;
+    height: 95%;
+}
+.upper_footer
+{
+    display: flex;
+    height: 85%;
+}
+.first_footer
+{
+    width: 33%;
+    display: block;
+    height: 100%;
+}
+.second_footer
+{
+    width: 20%;
+    height: 100%;
+}
+.third_footer
+{
+    width: 20%;
+    height: 100%;
+}
+.fourth_footer
+{
+    width: 20%;
+    height: 100%;
+}
+.footer_img
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 28%;
+    margin-left: 30px;
+}
+.heading
+{
+    color: #F2EFEA;
+    font-size: 40px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.logo
+{
+    height: 60px;
+}
+.desc
+{
+    color: #F2EFEA;
+    width: 70%;
+    height: auto;
+    margin-left: 30px;
+    font-weight: 600;
+}
+.f_links
+{
+    text-decoration: none;
+    
+}
+.footer_links
+{
+    text-decoration: none; 
+    margin-left: 28px;
+}
+.second_foot_link
+{
+    display: block;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.footer_heading
+{
+    color: #F2EFEA;
+    font-size: 33px;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+.second_foot_L
+{
+    display: block;
+    text-decoration: none;
+    color: #F2EFEA;
+    margin-top: 7px;
+    font-weight: 600;
+}
+.tsecond_foot_L
+{
+    display: block;
+    text-decoration: none;
+    color: #F2EFEA;
+    margin-top: 3px;
+    font-weight: 600;
+}
+.t_second_foot_L
+{
+    display: block;
+    text-decoration: none;
+    color: #F2EFEA;
+    margin-top: 0px;
+    font-weight: 600;
+}
+.lineH
+{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.line
+{
+    color: #F2EFEA;
+    margin-top: 0px;
+}
+.lineP
+{
+    color: #F2EFEA;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+
+}
+/* About Page  */
+.About1
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.book1_attr
+{
+    width: 100%;
+    height: 700px;
+    background: url("./images/pexels-marcelo-chagas-1893264.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: #F2EFEA;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.book1
+{
+    color: #F2EFEA;
+    font-weight: 600;
+    padding-left: 50px;
+}
+.book3
+{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+
+}
+.About_div1{
+    display: block;
+    width: 80%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.A_P{
+    font-weight: 500;
+}
+.A_heading
+{
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.signin_wrap
+{
+    width: 100%;
+    height: 650px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.signin_form
+{
+    /* background-color: red; */
+    width: 40%;
+    height: 75%;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.signin_form h1
+{
+    text-align: center;
+    font-size: 50px;
+}
+.signin_form .input-box
+{
+    width: 100%;
+    height: 60px;
+    margin: 30px 0;
+}
+.input-box input
+{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px ;
+}
+.input-box input::placeholder
+{
+    color: black;
+    font-weight: 600;
+}
+.forgot_password
+{
+    /* background-color: red; */
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    margin-top: -25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.forgot_password label 
+{
+    font-weight: 500;
+}
+.label_link
+{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.signin_btn
+{
+    font-weight: 600;
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.register-link
+{
+    width: 100%;
+    height: 40px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-link p
+{
+    font-weight: 600;
+}
+.signup_wrap
+{
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.signup_form
+{
+    width: 40%;
+    height: 75%;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.signup_form h1
+{
+    text-align: center;
+    font-size: 50px;
+}
+.signup_form .input-box
+{
+    width: 100%;
+    height: 60px;
+    margin: 30px 0;
+}
+
+/* help page */
+.H_P
+{
+    background: url("./images/istoc.jpg");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Home page */
+.H_B
+{
+    background: url('./images/pexels-pineapple-supply-co-1746718.jpg');
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+.H_body{
+    height: 700px;
+}
